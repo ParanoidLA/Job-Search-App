@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "job_search",
-    "slug": "job_search"
+    "slug": "job_search",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7cd9acc9-9d96-4ac1-8c7e-6a09d8dccbe5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7cd9acc9-9d96-4ac1-8c7e-6a09d8dccbe5"
+    },
+    "android": {
+      "package": "com.lakshyagrawal.job_search"
+    },
+    "ios": {
+      "bundleIdentifier": "JobSearch"
+    }
   }
 }

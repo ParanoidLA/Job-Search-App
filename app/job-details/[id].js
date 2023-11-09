@@ -1,4 +1,4 @@
-import { Stack, useRouter, useGloabalSearchParams } from "expo-router";
+import { Stack, useRouter, useSearchParams } from "expo-router";
 import { useCallback, useState } from "react";
 import {
   View,
@@ -85,9 +85,9 @@ const JobDetails = () => {
           headerRight: () => (
             <ScreenHeaderBtn iconUrl={icons.share} dimension='60%' />
           ),
-          headerTitle: '',
+          headerTitle: "",
         }}
-      /> 
+      />
 
       <>
         <ScrollView showsVerticalScrollIndicator={false}
